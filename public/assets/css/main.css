@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 75px;
+}
+
+
+#logo {
+    max-width: 10em;
+}
+
+#login-icon {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+/* Bootstrap changes*/
+
+.navbar-nav .active {
+    color: red !important;
+  }

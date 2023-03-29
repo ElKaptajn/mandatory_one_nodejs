@@ -1,0 +1,21 @@
+<div class="container mt-3">
+    <h1>Add New Text To A Page</h1>
+    <form id="addTextForm" action="/addParagraph" method="POST">
+      <div class="mb-3">
+        <label for="formPage" class="form-label fw-bold">Select Page:</label>
+          <select class="form-select mb-3" id="formPage" name="formPage" >
+            <option value="/frontpage">Frontpage</option>
+            <option value="/introduction">Introduction</option>
+            <option value="/firstServer">First Server</option>
+            <option value="/servingHTML">Serving HTML</option>
+            <option value="/time">Time</option>
+            <option value="/exportImport">Export/Import</option>
+            <option value="/serverSideVsClientSide">Server Side vs Client Side</option>
+            <option value="/serverSideRendering">Server Side Rendering</option>
+          </select>
+        <label for="newText" class="form-label fw-bold">New Text:</label>
+        <textarea class="form-control" id="newText" name="newText" rows="6" cols="12"></textarea>
+      </div>
+      <button class="btn btn-primary">Add Text</button>
+    </form>
+  </div>

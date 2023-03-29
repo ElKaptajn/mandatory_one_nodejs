@@ -1,0 +1,30 @@
+{
+  "name": "mandatory_one_nodejs_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env PORT=8080 ENV=DEV nodemon app.js",
+    "prod": "cross-env PORT=80 node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElKaptajn/mandatory_one_nodejs.git"
+  },
+  "author": "Xenius Blom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElKaptajn/mandatory_one_nodejs/issues"
+  },
+  "homepage": "https://github.com/ElKaptajn/mandatory_one_nodejs#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "cross-env": "^7.0.3",
+    "escape-html": "^1.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.21"
+  }
+}
