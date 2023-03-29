@@ -1,0 +1,27 @@
+<div class="container">
+    <h1 class="text-center mt-5 mb-3">First Server</h1>
+    <h2 class="mb-3">Scoping and Variables in JavaScript</h2>
+    <p class="mb-4"> JavaScript has block-level scoping, which is defined by curly braces {}. Variables declared with "const" are constants and cannot be reassigned, while "let" allows for reassignment. It is a best practice to use "const" whenever possible, only using "let" when necessary.</p>
+    <h2 class="mb-3">JavaScript Functions</h2>
+    <p class="mb-4">JavaScript functions allows for a more organizied and structured code, allowing developers to create reusable code blocks that perform specific tasks. Below are brief descriptions and use cases for callback functions, arrow functions, and anonymous functions in JavaScript:</p>
+    <ul>
+        <li><span class="fw-bold">Callback Functions:</span> Are functions passed as arguments to other functions, to be executed later or upon specific events.</li>
+        <li><span class="fw-bold">Arrow Functions:</span> Are a concise syntax for defining functions in JavaScript. They have a shorter syntax compared to regular function expression, making them ideal for use in situations where a short function is required.</li>
+        <li><span class="fw-bold">Anonymous Functions:</span> Are functions without a name. They are typically used for single-use or throwaway functions that are not meant to be reused.</li>
+    </ul>
+    <div class="d-flex justify-content-space align-items-center">
+        <img src="/assets/images/callbackfunction.png" alt="Callback Function" class=" mb-4 me-2" style=" max-width: auto; height: 100%">
+        <img src="/assets/images/arrowfunction.png" alt="Callback Function" class="mb-4 me-2" style=" max-width: auto; height: 100%">
+        <img src="/assets/images/Anonymousfunction.png" alt="Callback Function" class="mb-4" style=" max-width: auto; height: 100%">
+    </div>
+    <h2 class="mb-3">Package.json</h2>
+    <p class="mb-4">The package.json file is the heart of any Node.js project, managing dependencies, scripts, and metadata. While tools like npm and can automatically generate package.json files, understanding its structure allows developers to set it up manually. Key properties include "name", "version", "description", "dependencies", "devDependencies", and "scripts". By creating and managing package.json files by hand, developers can have fine-grained control over their project configuration. The file is in json format and therefore is using key-value pairs</p>
+
+    <h2 class="mb-3">Creating a Server Instance with Express</h2>
+    <p class="mb-4">Express is a popular Node.js framework for building web applications and APIs. To create a server instance, one needs to import the Express module, instantiate an Express app, define routes, and listen for incoming requests on a specific port. The picture below shows the basic steps:</p>
+    <img src="/assets/images/expressserver.png" alt="Express Server" class="mx-auto d-block mb-4">
+
+    <h2 class="mb-3">Sending Data with GET Requests in Express</h2>
+    <p class="mb-4">GET requests are used to retrieve data from a server, and developers need to define specific routes in their Express app to handle these requests. By using "app.get()" and specifying a route path and a callback function, developers can process incoming GET requests, access query parameters, and send data back to the client. The picure above is using a get request to get the home page for the website.</p>
+
+</div>
