@@ -1,0 +1,23 @@
+<div class="container">
+    <h1 class="text-center mt-5 mb-3">Web Development Best Practices</h1>
+
+    <h2 class="mb-3">Working with Import/Export</h2>
+    <p class="mb-4">ECMAScript enable the use of the "import" and "export" statements in JavaScript. This allows for better code organization and modularity. Here's an example from this website:</p>
+   
+    <div class="d-flex justify-content-space align-items-start">
+        <div>
+            <h3>Export:</h3>
+            <p>Here in the bottom of the code, we see how to the two methods renderPage and readPage gets exported</p>
+            <img src="/assets/images/export.png" alt="" class="mb-4 me-2" style=" max-width: auto; height: 100%">
+        </div>
+        <div>
+            <h3>Import:</h3>
+            <p>In this code sample we see how the renderPage and readPage is imported from engineTemplate and used by calling engineTemplate.methodName(). You are free to call the import whatever you want, but here it's called the same as the file</p>
+            <img src="/assets/images/import.png" alt="" class=" mb-4 me-2" style=" max-width: auto; height: 100%">
+        </div>
+    </div>
+
+    <h2 class="mb-3">Cross-Site Scripting (XSS)</h2>
+    <p class="mb-4">Cross-Site Scripting is a security vulnerability that occurs when an attacker injects malicious scripts into a web application. To avoid XSS attacks, developers should validate and sanitize user input, and utilize secure coding practices, such as encoding data before rendering it on the page. This helps protect the application and its users from potential security threats. The following image shows a basic function that sanitize input from a user by making it into plain text:</p>
+    <img src="/assets/images/sanitize.png" alt="" class="mx-auto d-block mb-4">
+</div>

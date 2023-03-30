@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 class="text-center mt-5 mb-3">Client-side vs Server-side</h1>
+    <h2 class="mb-3">Client-side redirection vs. server-side redirection</h2>
+    <p class="mb-4">Client-side redirection is handled by the user's browser and is implemented using JavaScript or HTML. It requires the browser to load the original page before navigating to the new URL. On the other hand, server-side redirection is handled by the Express server, which directly sends an HTTP status code and the new URL to the browser without loading the original page. This results in faster navigation and better SEO.</p>
+    
+    <h2 class="mb-3">Fetching in the client vs. fetching in the frontend</h2>
+    <p class="mb-4">Fetching data in the client involves making API calls from the browser, usually using JavaScript. This approach allows for dynamic content updates without a full page refresh, providing a smoother user experience. However the content might not be visible to search engines. Fetching data in the server-side means retrieving data from the server before rendering the HTML. This ensures that the content is available to search engines and visible to users even if JavaScript is disabled, but it may require a full page refresh for content updates.</p>
+    <p class="text-center mb-4">Here is an example of a fetch call from the client side:</p>
+    <img src="/assets/images/client-side-fetch.png" alt="Fetching methods Client" class="mx-auto d-block mb-4">
+    <p class="text-center mb-4">Here is an example of a server-side fetch call with nodejs and express:</p>
+    <img src="/assets/images/server-side-fetch.png" alt="Fetching methods Server" class="mx-auto d-block mb-4">
+    
+    <h2 class="mb-3">Structuring HTML with semantic HTML (header, main, footer)</h2>
+    <p class="mb-4">Semantic HTML refers to using appropriate HTML elements to convey meaning and structure to the content. It helps improve the readability and accessibility of a web page. Using semantic elements like &lt;header&gt;, &lt;main&gt;, and &lt;footer&gt; allows developers to define the main sections of a web page, making it easier to understand and maintain. Search engines and screen readers can also better understand the structure of the content, improving SEO and accessibility.</p>
+    <p class="text-center mb-4">Here is an example here header, main and footer is used:</p>
+    <img src="/assets/images/sematics.png" alt="Semantic HTML" class="mx-auto d-block mb-4">
+    
+</div>
